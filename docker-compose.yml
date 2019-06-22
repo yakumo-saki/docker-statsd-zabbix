@@ -1,0 +1,68 @@
+version: '3'
+services:
+  statsd:
+    image: yakumosaki/statsd-zabbix
+    restart: always
+    ports:
+      - 8125:8125/udp
+      - 8126:8126
+    volumes:
+      - ./config.js:/usr/src/app/config.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
